@@ -261,11 +261,11 @@ select {
 
 /* @@@@@@@@@@@@@  Global CSS  @@@@@@@@@@@@@@ */
 .padding-tb {
-  padding: 70px 0;
+  padding: 35px 0;
 }
 @media (min-width: 992px) {
   .padding-tb {
-    padding: 120px 0;
+    padding: 60px 0;
   }
 }
 
@@ -2559,7 +2559,7 @@ select {
   z-index: 11;
 }
 .banner.style-1 .banner-top {
-  padding: 150px 0;
+  padding: 80px 0;
 }
 .banner.style-1 .banner-content-area .banner-content h1 {
   line-height: 1.2;
@@ -3006,7 +3006,7 @@ select {
   max-width: 1520px;
   margin: 0 auto;
   z-index: 1;
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
 @media (max-width: 575px) {
   .service-section.style-1 .service-area {
@@ -3684,6 +3684,7 @@ select {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  margin-bottom: 21px;
 }
 .contact-section.style-1 .section-wrapper form button[type=submit]:hover {
   background: #44a6f1;
@@ -3692,7 +3693,7 @@ select {
 /* @@@@@@@@@@@@@  Testimonial Section Start Here  @@@@@@@@@@@@@@ */
 .testimonial-section .section-wrapper .testimonial-item .testimonial-inner {
   text-align: center;
-  padding: 60px 15px;
+  padding: 35px 15px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .testimonial-section .section-wrapper .testimonial-item .testimonial-inner {
@@ -7380,4 +7381,25 @@ footer .pattan-shape {
  .header-section .primary-menu .main-area .main-menu ul li a:hover{
   color: #9160ff;
   transition: .2s;
+}
+
+
+.about-thumb img{
+  width: 60px;
+}
+
+.nav-item .nav-link img{
+  width: 40px;
+}
+
+.st-icon img{
+  padding: 10px;
+}
+
+
+@media (max-width:768px){
+  
+.banner.style-1 .banner-top{
+  padding: 100px 0 60px;
+}
 }
