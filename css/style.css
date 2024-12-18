@@ -7402,4 +7402,38 @@ footer .pattan-shape {
 .banner.style-1 .banner-top{
   padding: 100px 0 60px;
 }
+
+.testimonial-section .section-wrapper .testimonial-item .testimonial-inner {
+  padding: 0 15px;
+}
+.footer-top-area .footer-top .ft-bottom{
+  padding-top: 35px;
+}
+.footer-top-area .footer-top .ft-bottom{
+  padding: 35px 0 35px;
+}
+.copy-right-part{
+  padding: 0 0 35px 0
+}
+}
+
+
+.contact-section.style-1 {
+    position: relative;
+    background: url(../images/bg-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1; 
+}
+
+.contact-section.style-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 4, 130, 0.2);
+    z-index: -1; 
 }
