@@ -3107,11 +3107,11 @@ select {
   padding: 8px 0;
   border-bottom: 1px solid #f6f9fb;
 }
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .service-section.style-1 .service-area .section-wrapper .tab-content .tab-pane .card .card-body .lab-ul li {
     width: calc(100% / 2);
   }
-}
+} */
 .service-section.style-1 .service-area .section-wrapper .tab-content .tab-pane .card .card-body .lab-ul li i {
   margin-right: 5px;
 }
@@ -3678,6 +3678,7 @@ select {
   width: 220px;
   height: 50px;
   background: #9160ff;
+  color: #fff;
   border: none;
   outline: none;
   padding: 0;
@@ -7346,7 +7347,7 @@ footer .pattan-shape {
 }
 
 .copy-right-part {
-  padding: 40px 0;
+  padding: 25px 0;
 }
 @media (max-width: 991px) {
   .copy-right-part {

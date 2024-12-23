@@ -853,16 +853,16 @@
                             <h2><span class="d-block">Connect with Our</span> Chat With <span class="theme-color">Fertility Experts</span></h2>
                         </div>
                         <div class="section-wrapper">
-                            <form >
-                                <input type="text" placeholder="Your Name">
-                                <input type="text" placeholder="Your Phone">
-                                <input type="text" placeholder="Your Email">
-                                <input type="text" placeholder="Your City">
-                                <input type="text" placeholder="Your Country">
-                                <input type="text" placeholder="Your Message">
-                                <!-- <input type="text" placeholder="Staff"> -->
-                                <button type="submit" class="lab-btn"><span>Schedule a Call<i class="icofont-rounded-double-right"></i></span></button>
+                           <form action="./mail/mail.php" method="post">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="text" name="phone" placeholder="Your Phone" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <input type="text" name="city" placeholder="Your City" required>
+                                <input type="text" name="country" placeholder="Your Country" required>
+                                <input type="text" name="message" placeholder="Your Message" required></input>
+                                <button type="submit" name="submit">Schedule a Call</button>
                             </form>
+
                         </div>
                     </div>
                 </div>
