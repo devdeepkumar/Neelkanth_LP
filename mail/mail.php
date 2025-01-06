@@ -2,7 +2,7 @@
 if (isset($_POST['submit'])) {
     // Your email address to receive form submissions
     $email_to = "devdeepkr734@gmail.com";
-    $email_subject = "Query Submission from LifeLinkr Form";
+    $email_subject = "Request demo from Neelkanth Fertility form";
 
     // Function to sanitize input data
     function clean_string($string) {
@@ -182,7 +182,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			window.onload = function() {       
     setTimeout(function(){
     window.location.href='https://www.lifelinkr.com/ivf-software/';
-},3000); 
+},5000); 
 }
 </script>
 

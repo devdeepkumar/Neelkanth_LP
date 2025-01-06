@@ -7438,3 +7438,55 @@ footer .pattan-shape {
     background-color: rgba(13, 4, 130, 0.2);
     z-index: -1; 
 }
+
+.hero-form{
+  padding-left:144px;
+  button{
+    width: 100%;
+    outline: none;
+    padding: 12px 20px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 3px;
+}
+h4{
+  color:white;
+  text-align:center;
+  margin-bottom:25px;
+}
+  input{
+    margin-bottom:20px;
+  }
+
+  button{
+    background:#44a6f1 ;
+    border:none;
+    color:white;
+    margin-bottom:10px;
+
+    &:hover{
+      background:#005190;
+      transition:.3s;
+    }
+  }
+}
+
+.hero-form .form-box{
+  padding:20px;
+   background:#9160ff;
+   border-radius:10px;
+}
+header{
+  border-bottom:1px solid #9160ff;
+}
+
+@media (max-width:991px){
+  .hero-form{
+    padding:0;
+    margin-top:40px
+  }
+  .form-box{
+    margin-inline:15px;
+  }
+}
+
